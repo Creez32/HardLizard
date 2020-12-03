@@ -51,7 +51,6 @@ module.exports = {
     },
     masVotadas: function (req, res) {
         res.end(`/*/* Mas Votadas /*/* \n\n **Total peliculas** ${pelis}  -Promedio- ${formula} \n\n ${pelisFiltradas}`);
-      
     },
     sucursales: function (req, res) {
         res.write('Nuestras Salas');
